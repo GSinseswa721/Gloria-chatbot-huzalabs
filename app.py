@@ -30,7 +30,7 @@ chatBot = chatBot()
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycopg2//postgres://gloria:cNHKxJKDDIdhtpBD3uaxLOelU7uBZWKw@dpg-cf2klmo2i3mnjcg3dm10-a.oregon-postgres.render.com/chatbot_sx7z"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycopg2//gloria:cNHKxJKDDIdhtpBD3uaxLOelU7uBZWKw@dpg-cf2klmo2i3mnjcg3dm10-a.oregon-postgres.render.com/chatbot_sx7z"
 
 db = SQLAlchemy(app)
 
