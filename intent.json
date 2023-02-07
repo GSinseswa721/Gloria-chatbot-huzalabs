@@ -1,0 +1,114 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "Services at REMA",
+        "patterns": [
+          "What services does REMA provide?"
+        ],
+        "responses": [
+
+        ]
+      },
+      
+      {
+        "tag": "Environmental policies",
+        "patterns": [
+          "How do I report an environmental violation?"
+        ],
+        "responses": [
+          "You can use this link https://www.rema.gov.rw/get-involved/contact-us "
+        ]
+      },
+      {
+        "tag": "home",
+     "patterns": [
+      "Guide me to home?",
+      "Where do you get home?",
+      "What is the link to the home",
+      "How do you get home?",
+      "How does home works?",
+      "How can i get home?",
+      "Who is the home?",
+      "What is the home?",
+      "Show me home",
+      "How long did it take to have home",
+      "What is REMA",
+      "How do i apply for home?",
+      "Who is in Charge of home?"
+    ],
+     "responses": [
+      "You can use this link https://www.rema.gov.rw/home for more information"
+      ]
+    },
+    
+  {
+      "tag": "about",
+     "patterns": [
+      "Guide me to about?",
+      "Where do you get about?",
+      "What is the link to the about?",
+      "How do you get about?",
+      "How does about works?",
+      "How can i get about?",
+      "Who is the about?",
+      "What is the about?",
+      "Show me about",
+      "How long did it take to have about",
+      "How do i apply for about?",
+      "Who is in Charge of about?"],
+     "responses": [
+      "You can use this link https://www.rema.gov.rw/about for more information"
+      ]
+    },
+    {
+      "tag": "Most asked questions",
+     "patterns": [
+      "What are the main functions of REMA?",
+      "What kind of activities does REMA regulate?",
+      "Does REMA issue permits for environmental activities?",
+      "What kind of penalties does REMA impose for environmental violations?",
+      "How can I contact REMA?"
+
+    ],
+     "responses": ["The main functions of REMA include the protection and conservation of the environment and natural resources, the promotion of sustainable development, and the regulation of activities that may have negative impacts on the environment.",
+     " REMA regulates activities such as industrial development, waste management, deforestation, and the use of natural resources.",
+     "Yes, REMA is responsible for issuing permits for activities that have the potential to impact the environment, such as industrial development, waste management, and the use of natural resources.",
+     " REMA can impose penalties such as fines, cease and desist orders, and imprisonment for individuals or organizations that violate environmental laws and regulations",
+     "You can contact REMA by visiting their website at www.rema.gov.rw, or by calling their offices at +250 252 576 400. You can also send an email to info@rema.gov.rw for further information."
+
+     ]}
+    
+    ]
+  }
+  
